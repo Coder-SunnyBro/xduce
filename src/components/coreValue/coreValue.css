@@ -1,0 +1,20 @@
+.flex-center{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+}
+
+.container-new {
+    background-color: rgb(244, 247, 251);
+}
+
+.card-full-width {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .container-new {
+        max-width: 100vw;
+    }
+}

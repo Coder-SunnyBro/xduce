@@ -1,0 +1,49 @@
+.css-1j74uew-MuiPaper-root-MuiCard-root{
+    background-color: #112f5c !important;
+}
+
+.url-background{
+    background-color: #112f5c !important;
+}
+
+.container{
+    width: 100% !important;
+}
+
+.slide-down {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0; /* Initially collapsed */
+    opacity: 0;    /* Initially invisible */
+  }
+  
+  .slide-down-active {
+    max-height: 1000px; /* Adjust this value as needed */
+    opacity: 1;         /* Fully visible */
+  }
+
+  .animation-slide-down{
+    -webkit-animation: slide-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  }
+
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }

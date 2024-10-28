@@ -1,0 +1,17 @@
+.navbar-color{
+    background-color:#112f5c;
+}
+
+.text-light{
+    color: #fff;
+}
+
+/* .static-border{
+    border: 0.01em solid #fff;
+} */
+
+.static-border {
+    width: 0.1px;
+    background-color: rgb(238, 233, 233); /* Change this to your preferred color */
+    height: 100%; /* Adjust height as needed */
+  }
